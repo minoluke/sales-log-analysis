@@ -1,0 +1,4 @@
+.env
+analysis_results.json
+__pycache__/
+*.pyc
