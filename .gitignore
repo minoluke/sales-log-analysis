@@ -1,4 +1,48 @@
+# 環境設定
 .env
-analysis_results.json
+*.env
+
+# データファイル（大容量・機密情報含む可能性）
+data/
+results/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 仮想環境
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
+*.bak
+*_temp.csv
+*_temp_*.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 配布パッケージ
+dist/
+build/
+*.egg-info/
